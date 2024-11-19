@@ -12,7 +12,7 @@ app.set('view engine', 'ejs');
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/', (req, res) => {
-    res.render('index', { title: 'Welcome to the Online Directory' });
+    res.render('views/index', { title: 'Welcome to the Online Directory' });
   });
   
 
